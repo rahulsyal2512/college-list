@@ -1,0 +1,78 @@
+.college-details {
+  width: calc(100% - 30px);
+  background: white;
+  margin-top: 180px;
+  padding: 15px 15px 0px;
+  color: #444444;
+  display: flex;
+}
+
+.details {
+  width: 72%;
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+
+.college-name {
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin: 0px 5px 3px;
+}
+
+.offers {
+  width: 28%;
+  text-align: right;
+  font-size: 0.9vw;
+}
+
+.price-tag-container {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.discounted-price {
+  font-size: 3vw;
+  color: #dd1c26;
+}
+
+.discount-tag {
+  position: relative;
+  width: 3vw;
+  height: 1.8vw;
+  background: url("https://res.cloudinary.com/dssa0shmr/image/upload/c_scale,h_1448,q_auto/v1594296760/template_primary_goppil.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+.discount {
+  position: absolute;
+  top: 0.4vw;
+  left: 1.4vw;
+  color: white;
+  font-size: 0.9vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .details {
+    font-size: 2.4vw;
+  }
+  .offers {
+    font-size: 2vw;
+  }
+  .college-name {
+    font-size: 2.8vw;
+  }
+}

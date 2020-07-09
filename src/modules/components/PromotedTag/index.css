@@ -1,0 +1,29 @@
+.promoted {
+  position: absolute;
+  width: 100px;
+  height: 26px;
+  top: -13px;
+  right: 0;
+  background-color: #68a7ff;
+  z-index: 10;
+}
+
+.promoted-text {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+
+.promoted::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #68a7ff;
+  border-bottom: 13px solid #68a7ff;
+  border-left: 13px solid transparent;
+  margin-left: -13px;
+}

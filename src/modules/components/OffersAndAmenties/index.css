@@ -1,0 +1,34 @@
+.bottom-container {
+  background: white;
+  color: #444444;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+
+.login-wrapper {
+  padding: 6px 15px;
+  font-size: 1vw;
+  color: #444444;
+  font-weight: 500;
+  background-color: #ccf5e7;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.amenties {
+  display: flex;
+  font-size: 1vw;
+  padding-top: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .amenties {
+    font-size: 2.1vw;
+  }
+  .login-wrapper {
+    font-size: 2vw;
+  }
+}

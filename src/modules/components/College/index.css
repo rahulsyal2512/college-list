@@ -1,0 +1,100 @@
+.heading {
+  margin-top: 30px;
+  margin-left: 3.3%;
+}
+
+.college-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.college {
+  position: relative;
+  width: 45%;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.1);
+  border: solid 0.2px #44444436;
+  background-color: #ffffff;
+}
+
+.college-image {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  filter: brightness(0.3);
+}
+
+.rating {
+  font-size: 20px;
+}
+
+.font {
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+.star-size {
+  font-size: 1vw;
+}
+
+.grey {
+  color: #adadad;
+}
+
+.green {
+  color: #37b396;
+}
+
+.blue {
+  color: #1999d2;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.margin {
+  margin: 4px 0px;
+}
+
+.margin-12 {
+  margin: 12px 0px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.border-radius-bottom-none {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.bullet {
+  font-size: 18px;
+  margin: 0px 5px;
+}
+
+.checked {
+  color: #f5a626;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .college {
+    width: 93%;
+  }
+  .star-size {
+    font-size: 2.5vw;
+  }
+}
